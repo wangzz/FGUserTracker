@@ -14,10 +14,10 @@
 		821FAE121B0ADBDB000D2F16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821FAE111B0ADBDB000D2F16 /* Images.xcassets */; };
 		821FAE151B0ADBDB000D2F16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 821FAE131B0ADBDB000D2F16 /* LaunchScreen.xib */; };
 		821FAE211B0ADBDB000D2F16 /* FGUserTrackerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FAE201B0ADBDB000D2F16 /* FGUserTrackerDemoTests.m */; };
-		821FAE2D1B0ADC36000D2F16 /* FGUserTrackerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FAE2C1B0ADC36000D2F16 /* FGUserTrackerManager.m */; };
-		821FAE301B0ADD0A000D2F16 /* FGMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FAE2F1B0ADD0A000D2F16 /* FGMethodSwizzling.m */; };
-		821FAE331B0ADD68000D2F16 /* UIViewController+UserTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FAE321B0ADD68000D2F16 /* UIViewController+UserTracker.m */; };
-		821FAE361B0ADDAF000D2F16 /* UIApplication+UserTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 821FAE351B0ADDAF000D2F16 /* UIApplication+UserTracker.m */; };
+		825863051B0ADFCC006B6007 /* FGMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 825862FE1B0ADFCC006B6007 /* FGMethodSwizzling.m */; };
+		825863061B0ADFCC006B6007 /* FGUserTrackerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 825863001B0ADFCC006B6007 /* FGUserTrackerManager.m */; };
+		825863071B0ADFCC006B6007 /* UIApplication+UserTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 825863021B0ADFCC006B6007 /* UIApplication+UserTracker.m */; };
+		825863081B0ADFCC006B6007 /* UIViewController+UserTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 825863041B0ADFCC006B6007 /* UIViewController+UserTracker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		821FAE1A1B0ADBDB000D2F16 /* FGUserTrackerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGUserTrackerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		821FAE1F1B0ADBDB000D2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		821FAE201B0ADBDB000D2F16 /* FGUserTrackerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGUserTrackerDemoTests.m; sourceTree = "<group>"; };
-		821FAE2B1B0ADC36000D2F16 /* FGUserTrackerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUserTrackerManager.h; sourceTree = "<group>"; };
-		821FAE2C1B0ADC36000D2F16 /* FGUserTrackerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGUserTrackerManager.m; sourceTree = "<group>"; };
-		821FAE2E1B0ADD0A000D2F16 /* FGMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMethodSwizzling.h; sourceTree = "<group>"; };
-		821FAE2F1B0ADD0A000D2F16 /* FGMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMethodSwizzling.m; sourceTree = "<group>"; };
-		821FAE311B0ADD68000D2F16 /* UIViewController+UserTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UserTracker.h"; sourceTree = "<group>"; };
-		821FAE321B0ADD68000D2F16 /* UIViewController+UserTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UserTracker.m"; sourceTree = "<group>"; };
-		821FAE341B0ADDAF000D2F16 /* UIApplication+UserTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+UserTracker.h"; sourceTree = "<group>"; };
-		821FAE351B0ADDAF000D2F16 /* UIApplication+UserTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+UserTracker.m"; sourceTree = "<group>"; };
+		825862FD1B0ADFCC006B6007 /* FGMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMethodSwizzling.h; sourceTree = "<group>"; };
+		825862FE1B0ADFCC006B6007 /* FGMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMethodSwizzling.m; sourceTree = "<group>"; };
+		825862FF1B0ADFCC006B6007 /* FGUserTrackerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUserTrackerManager.h; sourceTree = "<group>"; };
+		825863001B0ADFCC006B6007 /* FGUserTrackerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGUserTrackerManager.m; sourceTree = "<group>"; };
+		825863011B0ADFCC006B6007 /* UIApplication+UserTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+UserTracker.h"; sourceTree = "<group>"; };
+		825863021B0ADFCC006B6007 /* UIApplication+UserTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+UserTracker.m"; sourceTree = "<group>"; };
+		825863031B0ADFCC006B6007 /* UIViewController+UserTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UserTracker.h"; sourceTree = "<group>"; };
+		825863041B0ADFCC006B6007 /* UIViewController+UserTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UserTracker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		821FAE031B0ADBDB000D2F16 /* FGUserTrackerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				821FAE2A1B0ADC08000D2F16 /* FGUserTracker */,
+				825862FC1B0ADFA4006B6007 /* FGUserTracker */,
 				821FAE081B0ADBDB000D2F16 /* AppDelegate.h */,
 				821FAE091B0ADBDB000D2F16 /* AppDelegate.m */,
 				821FAE0B1B0ADBDB000D2F16 /* ViewController.h */,
@@ -132,19 +132,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		821FAE2A1B0ADC08000D2F16 /* FGUserTracker */ = {
+		825862FC1B0ADFA4006B6007 /* FGUserTracker */ = {
 			isa = PBXGroup;
 			children = (
-				821FAE2B1B0ADC36000D2F16 /* FGUserTrackerManager.h */,
-				821FAE2C1B0ADC36000D2F16 /* FGUserTrackerManager.m */,
-				821FAE2E1B0ADD0A000D2F16 /* FGMethodSwizzling.h */,
-				821FAE2F1B0ADD0A000D2F16 /* FGMethodSwizzling.m */,
-				821FAE311B0ADD68000D2F16 /* UIViewController+UserTracker.h */,
-				821FAE321B0ADD68000D2F16 /* UIViewController+UserTracker.m */,
-				821FAE341B0ADDAF000D2F16 /* UIApplication+UserTracker.h */,
-				821FAE351B0ADDAF000D2F16 /* UIApplication+UserTracker.m */,
+				825862FD1B0ADFCC006B6007 /* FGMethodSwizzling.h */,
+				825862FE1B0ADFCC006B6007 /* FGMethodSwizzling.m */,
+				825862FF1B0ADFCC006B6007 /* FGUserTrackerManager.h */,
+				825863001B0ADFCC006B6007 /* FGUserTrackerManager.m */,
+				825863011B0ADFCC006B6007 /* UIApplication+UserTracker.h */,
+				825863021B0ADFCC006B6007 /* UIApplication+UserTracker.m */,
+				825863031B0ADFCC006B6007 /* UIViewController+UserTracker.h */,
+				825863041B0ADFCC006B6007 /* UIViewController+UserTracker.m */,
 			);
-			path = FGUserTracker;
+			name = FGUserTracker;
+			path = ../../FGUserTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,13 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821FAE331B0ADD68000D2F16 /* UIViewController+UserTracker.m in Sources */,
-				821FAE361B0ADDAF000D2F16 /* UIApplication+UserTracker.m in Sources */,
-				821FAE2D1B0ADC36000D2F16 /* FGUserTrackerManager.m in Sources */,
 				821FAE0D1B0ADBDB000D2F16 /* ViewController.m in Sources */,
-				821FAE301B0ADD0A000D2F16 /* FGMethodSwizzling.m in Sources */,
+				825863081B0ADFCC006B6007 /* UIViewController+UserTracker.m in Sources */,
+				825863051B0ADFCC006B6007 /* FGMethodSwizzling.m in Sources */,
 				821FAE0A1B0ADBDB000D2F16 /* AppDelegate.m in Sources */,
 				821FAE071B0ADBDB000D2F16 /* main.m in Sources */,
+				825863071B0ADFCC006B6007 /* UIApplication+UserTracker.m in Sources */,
+				825863061B0ADFCC006B6007 /* FGUserTrackerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +449,7 @@
 				821FAE261B0ADBDB000D2F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		821FAE271B0ADBDB000D2F16 /* Build configuration list for PBXNativeTarget "FGUserTrackerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +458,7 @@
 				821FAE291B0ADBDB000D2F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
